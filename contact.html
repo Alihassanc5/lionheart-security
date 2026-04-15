@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact LionHeart Security Group Limited — Get a free quote for security or cleaning services across the UK. We respond within 2 hours.">
+  <title>Contact Us | LionHeart Security Group Limited</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__logo" aria-label="LionHeart Security Group Limited — Home">
+        <div class="nav__logo-icon"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></div>
+        <div class="nav__logo-text">
+          <span class="nav__logo-name">LionHeart</span>
+          <span class="nav__logo-tag">Security Group Limited</span>
+        </div>
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html"    class="nav__link">Home</a></li>
+        <li><a href="about.html"    class="nav__link">About Us</a></li>
+        <li><a href="security.html" class="nav__link">Security</a></li>
+        <li><a href="cleaning.html" class="nav__link">Cleaning</a></li>
+        <li><a href="contact.html"  class="nav__link">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn--primary btn--sm nav__cta">
+        <i class="fa-solid fa-phone-volume" aria-hidden="true"></i> Free Quote
+      </a>
+      <button class="nav__hamburger" data-hamburger aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="nav__hamburger-line"></span>
+        <span class="nav__hamburger-line"></span>
+        <span class="nav__hamburger-line"></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobile-menu" role="dialog" aria-label="Navigation menu" aria-modal="true">
+      <div class="nav__mobile-overlay"></div>
+      <div class="nav__mobile-panel">
+        <ul class="nav__mobile-links" role="list">
+          <li><a href="index.html"    class="nav__mobile-link">Home</a></li>
+          <li><a href="about.html"    class="nav__mobile-link">About Us</a></li>
+          <li><a href="security.html" class="nav__mobile-link">Security Services</a></li>
+          <li><a href="cleaning.html" class="nav__mobile-link">Cleaning Services</a></li>
+          <li><a href="contact.html"  class="nav__mobile-link">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn--primary btn--lg" style="margin-top:1.5rem;text-align:center">Get a Free Quote</a>
+        <div class="nav__mobile-contact">
+          <a href="tel:+44XXXXXXXXXX"><i class="fa-solid fa-phone" aria-hidden="true"></i> +44 XXXX XXXX</a>
+          <a href="mailto:info@lionheartsecurity.co.uk"><i class="fa-solid fa-envelope" aria-hidden="true"></i> info@lionheartsecurity.co.uk</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- Page Hero -->
+    <section class="page-hero" aria-label="Contact page header">
+      <div class="container page-hero__inner">
+        <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+          <span>Contact</span>
+        </nav>
+        <div class="page-hero__badge"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Get In Touch</div>
+        <h1 class="page-hero__title">Get in Touch</h1>
+        <p class="page-hero__sub">Request a Free Quote or Consultation — We Respond Within 2 Hours</p>
+      </div>
+    </section>
+
+    <!-- Contact Main -->
+    <section class="section section--dark" id="contact-main">
+      <div class="container">
+        <div class="contact-layout">
+
+          <!-- Form Column -->
+          <div data-reveal="left">
+            <p class="section__eyebrow" style="justify-content:flex-start;margin-bottom:1rem;">
+              <span class="section__eyebrow-line" aria-hidden="true"></span>
+              Send Us a Message
+            </p>
+            <h2 class="section__title" style="text-align:left;max-width:none;margin-bottom:var(--sp-8);">Request a Free Quote</h2>
+
+            <div class="contact-form-wrapper">
+              <form data-contact-form novalidate aria-label="Contact form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <input type="text" id="name" name="name" class="form-input" placeholder=" " required autocomplete="name">
+                    <label for="name" class="form-label">Full Name *</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="tel" id="phone" name="phone" class="form-input" placeholder=" " required autocomplete="tel">
+                    <label for="phone" class="form-label">Phone Number *</label>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <input type="email" id="email" name="email" class="form-input" placeholder=" " required autocomplete="email">
+                  <label for="email" class="form-label">Email Address *</label>
+                </div>
+
+                <div class="form-group">
+                  <select id="service" name="service" class="form-select" required>
+                    <option value="default" disabled selected hidden></option>
+                    <option value="manned-guarding">Manned Guarding</option>
+                    <option value="door-supervisors">Door Supervisors</option>
+                    <option value="event-security">Event Security</option>
+                    <option value="cctv-monitoring">CCTV Monitoring</option>
+                    <option value="mobile-patrols">Mobile Patrols</option>
+                    <option value="office-cleaning">Office Cleaning</option>
+                    <option value="commercial-cleaning">Commercial Cleaning</option>
+                    <option value="deep-cleaning">Deep Cleaning</option>
+                    <option value="end-of-tenancy">End of Tenancy Cleaning</option>
+                    <option value="after-builders">After Builders Cleaning</option>
+                    <option value="other">Other / Not Sure</option>
+                  </select>
+                  <label for="service" class="form-label">Service Required *</label>
+                </div>
+
+                <div class="form-group">
+                  <input type="text" id="location" name="location" class="form-input" placeholder=" " required autocomplete="address-level2">
+                  <label for="location" class="form-label">Location / Area *</label>
+                </div>
+
+                <div class="form-group">
+                  <textarea id="message" name="message" class="form-textarea" placeholder=" " required rows="5"></textarea>
+                  <label for="message" class="form-label">Your Message *</label>
+                </div>
+
+                <div class="form-checkbox-group">
+                  <input type="checkbox" id="gdpr" name="gdpr" class="form-checkbox" required>
+                  <label for="gdpr" class="form-checkbox-label">
+                    I agree to my data being processed in accordance with the <a href="#">Privacy Policy</a>. We will only use your information to respond to your enquiry.
+                  </label>
+                </div>
+
+                <button type="submit" class="btn btn--primary btn--lg" style="width:100%">
+                  <i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Info Column -->
+          <div data-reveal="right">
+            <div class="contact-info-card">
+              <h3 class="contact-info-card__title">Contact Information</h3>
+
+              <div class="contact-info-items">
+                <div class="contact-info-item">
+                  <div class="contact-info-item__icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></div>
+                  <div>
+                    <div class="contact-info-item__label">Phone</div>
+                    <div class="contact-info-item__value"><a href="tel:+44XXXXXXXXXX">+44 XXXX XXXXXX</a></div>
+                  </div>
+                </div>
+                <div class="contact-info-item">
+                  <div class="contact-info-item__icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></div>
+                  <div>
+                    <div class="contact-info-item__label">Email</div>
+                    <div class="contact-info-item__value"><a href="mailto:info@lionheartsecurity.co.uk">info@lionheartsecurity.co.uk</a></div>
+                  </div>
+                </div>
+                <div class="contact-info-item">
+                  <div class="contact-info-item__icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></div>
+                  <div>
+                    <div class="contact-info-item__label">Coverage Area</div>
+                    <div class="contact-info-item__value">Nationwide, United Kingdom</div>
+                  </div>
+                </div>
+                <div class="contact-info-item">
+                  <div class="contact-info-item__icon"><i class="fa-solid fa-clock" aria-hidden="true"></i></div>
+                  <div>
+                    <div class="contact-info-item__label">Availability</div>
+                    <div class="contact-info-item__value">24/7 — 365 Days a Year</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-response-badge">
+                <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+                Typical response time: under 2 hours
+              </div>
+
+              <div style="padding-top:var(--sp-4);border-top:1px solid rgba(255,255,255,.08);">
+                <p style="font-size:var(--text-xs);color:rgba(255,255,255,.4);margin-bottom:var(--sp-4);text-transform:uppercase;letter-spacing:.08em;font-weight:600;">Follow Us</p>
+                <div style="display:flex;gap:var(--sp-3);">
+                  <a href="#" aria-label="LinkedIn" style="width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.5);font-size:.85rem;transition:all var(--trans-fast);"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                  <a href="#" aria-label="Twitter/X" style="width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.5);font-size:.85rem;transition:all var(--trans-fast);"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+                  <a href="#" aria-label="Facebook" style="width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.5);font-size:.85rem;transition:all var(--trans-fast);"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Why Choose Us mini -->
+            <div style="margin-top:var(--sp-6);padding:var(--sp-6);background:rgba(26,58,92,.2);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius-lg);">
+              <p style="font-size:var(--text-xs);font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--color-gold);margin-bottom:var(--sp-4);">Why LionHeart?</p>
+              <ul style="display:flex;flex-direction:column;gap:var(--sp-3);">
+                <li style="display:flex;align-items:center;gap:var(--sp-3);font-size:var(--text-sm);color:rgba(255,255,255,.7);">
+                  <i class="fa-solid fa-circle-check" style="color:var(--color-gold);flex-shrink:0;" aria-hidden="true"></i> SIA Licensed security professionals
+                </li>
+                <li style="display:flex;align-items:center;gap:var(--sp-3);font-size:var(--text-sm);color:rgba(255,255,255,.7);">
+                  <i class="fa-solid fa-circle-check" style="color:var(--color-gold);flex-shrink:0;" aria-hidden="true"></i> Fully insured &amp; vetted teams
+                </li>
+                <li style="display:flex;align-items:center;gap:var(--sp-3);font-size:var(--text-sm);color:rgba(255,255,255,.7);">
+                  <i class="fa-solid fa-circle-check" style="color:var(--color-gold);flex-shrink:0;" aria-hidden="true"></i> No-obligation free quotes
+                </li>
+                <li style="display:flex;align-items:center;gap:var(--sp-3);font-size:var(--text-sm);color:rgba(255,255,255,.7);">
+                  <i class="fa-solid fa-circle-check" style="color:var(--color-gold);flex-shrink:0;" aria-hidden="true"></i> Nationwide UK coverage
+                </li>
+                <li style="display:flex;align-items:center;gap:var(--sp-3);font-size:var(--text-sm);color:rgba(255,255,255,.7);">
+                  <i class="fa-solid fa-circle-check" style="color:var(--color-gold);flex-shrink:0;" aria-hidden="true"></i> 24/7 availability, 365 days/year
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__logo">
+            <div class="footer__logo-icon"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></div>
+            <span class="footer__logo-name">LionHeart Security Group</span>
+          </div>
+          <p class="footer__desc">Professional SIA licensed security and fully trained cleaning services across the UK. Available 24/7, 365 days a year.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Twitter/X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div>
+          <h3 class="footer__col-title">Quick Links</h3>
+          <ul class="footer__links" role="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="security.html">Security Services</a></li>
+            <li><a href="cleaning.html">Cleaning Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__col-title">Our Services</h3>
+          <ul class="footer__links" role="list">
+            <li><a href="security.html">Manned Guarding</a></li>
+            <li><a href="security.html">Door Supervisors</a></li>
+            <li><a href="security.html">Event Security</a></li>
+            <li><a href="cleaning.html">Office Cleaning</a></li>
+            <li><a href="cleaning.html">Deep Cleaning</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__col-title">Contact Us</h3>
+          <ul class="footer__contact" role="list">
+            <li class="footer__contact-item"><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:+44XXXXXXXXXX">+44 XXXX XXXXXX</a></li>
+            <li class="footer__contact-item"><i class="fa-solid fa-envelope" aria-hidden="true"></i><a href="mailto:info@lionheartsecurity.co.uk">info@lionheartsecurity.co.uk</a></li>
+            <li class="footer__contact-item"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>United Kingdom</span></li>
+            <li class="footer__contact-item"><i class="fa-solid fa-clock" aria-hidden="true"></i><span>24/7 — 365 days a year</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 LionHeart Security Group Limited. All rights reserved. SIA Licensed.</p>
+        <ul class="footer__legal" role="list">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

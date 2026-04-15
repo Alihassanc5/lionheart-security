@@ -1,0 +1,44 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="Django" />
+          <option value="djangorestframework" />
+          <option value="django-cors-headers" />
+          <option value="celery" />
+          <option value="redis" />
+          <option value="psycopg" />
+          <option value="python-decouple" />
+          <option value="django-environ" />
+          <option value="gunicorn" />
+          <option value="whitenoise" />
+          <option value="django-extensions" />
+          <option value="drf-yasg" />
+          <option value="pytest" />
+          <option value="pytest-django" />
+          <option value="factory-boy" />
+          <option value="coverage" />
+          <option value="black" />
+          <option value="flake8" />
+          <option value="isort" />
+          <option value="simple-salesforce" />
+          <option value="requests" />
+          <option value="cryptography" />
+          <option value="hubspot-api-client" />
+          <option value="langchain-openai" />
+          <option value="pydantic" />
+          <option value="django-constance" />
+          <option value="openai" />
+          <option value="reportlab" />
+          <option value="selenium" />
+          <option value="beautifulsoup4" />
+          <option value="webdriver-manager" />
+          <option value="serpapi" />
+          <option value="google-search-results" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
